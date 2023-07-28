@@ -1,0 +1,45 @@
+.table {
+  width: 100%;
+}
+
+.tr {
+  display: -webkit-box;
+
+  &.active {
+    background-color: #C2DBFF;
+  }
+}
+
+.sender {
+  width: 20%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  line-clamp: 1;
+  box-orient: vertical;
+}
+
+.preview {
+  width: 70%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  line-clamp: 1;
+  box-orient: vertical;
+}
+
+.date {}
+
+.date,
+.preview,
+.sender {
+  padding-right: 10px;
+}

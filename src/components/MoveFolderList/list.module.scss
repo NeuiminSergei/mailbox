@@ -1,0 +1,12 @@
+.item {
+  padding: 5px;
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  &:hover {
+    background-color: #EEEEEE;
+  }
+}

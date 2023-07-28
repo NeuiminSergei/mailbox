@@ -1,0 +1,33 @@
+.modal {
+  position: absolute;
+  inset: 0;
+  z-index: 1000;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+
+  &.active {
+    display: flex;
+  }
+}
+
+.modal_content {
+  position: relative;
+  min-width: 400px;
+  padding: 50px 30px;
+  background-color: #fff;
+}
+
+.item {
+  padding: 5px;
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  &:hover {
+    background-color: #EEEEEE;
+  }
+}
